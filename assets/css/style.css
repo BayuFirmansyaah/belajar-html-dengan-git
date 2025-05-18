@@ -1,3 +1,20 @@
-h4{
-    color: magenta;
+body{
+    text-align: center;
+    background-color: rgb(255, 53, 96);
+    color: white;
+}
+
+img{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 150px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    margin-top: 130px;
+    transition: .3s;
 }
